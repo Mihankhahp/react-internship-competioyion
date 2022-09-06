@@ -31,8 +31,9 @@
 
 .card-pic-bg {
   position: absolute;
+  min-height: 30%;
   border-radius: 10%;
-  top: 14.5%;
+  top: 17.5%;
   left: 35%;
   width: 30%;
 }
