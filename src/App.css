@@ -25,6 +25,12 @@
 }
 .App-header .btn {
   border-radius: 5px;
+  margin:0 1px;
+  width: 40%;
+}
+.App-header .header-button{
+  margin: 0px 0px 5% 0px;
+  width: 38%
 }
 .App-header .Selected {
   background-color: #102770;

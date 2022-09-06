@@ -10,6 +10,8 @@ const Kayaking = ({ detail , handleDate}) => {
           <img className="card-pic-bg"  src={detail.background} alt="" />
           <img className="card-pic-1" src={detail.pic1} alt="" />
           <img className="card-pic-2" src={detail.pic2} alt="" />
+          <img className="card-pic-3" src={detail.pic3} alt="" />
+
         </div>
         <div className="header">
           <h1>{detail.title}</h1>

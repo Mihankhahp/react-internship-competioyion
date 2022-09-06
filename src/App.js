@@ -12,7 +12,8 @@ function App() {
     location: "Windsor,Canada",
     background:'https://assets.codepen.io/1462889/sea.png',
     pic1:"https://assets.codepen.io/1462889/kayak.png",
-    pic2:'https://assets.codepen.io/1462889/water.png'
+    pic2:'https://assets.codepen.io/1462889/water.png',
+    pic3:'https://assets.codepen.io/1462889/Stone.png'
   }
   const camping = {
     title: "Camping",
@@ -20,7 +21,8 @@ function App() {
     location: "Toronto, Canada",
     background:'https://assets.codepen.io/1462889/grass.png',
     pic1:'https://assets.codepen.io/1462889/camp.png',
-    pic2:'https://assets.codepen.io/1462889/Ivy.png'
+    pic2:'https://assets.codepen.io/1462889/Ivy.png',
+    pic3:'https://assets.codepen.io/1462889/IvyRock.png'
   }
   const handleDate=()=>{
   alert("In real version Date picker would be open ")
@@ -28,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div style={{ margin: "0 0 5% 0" }}>
+        <div  className='header-button'>
           
           <button className={`btn ${status ? "Selected" : "hide"}`} onClick={() => setStatus(!status)}>Kayaking</button>
           <button className={`btn ${!status ? "Selected" : "hide"}`} onClick={() => setStatus(!status)}>Camping</button>
