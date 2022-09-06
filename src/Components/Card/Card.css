@@ -1,0 +1,36 @@
+.container {
+  background-color: white;
+  color: #102770;
+  width: 250px;
+  border-radius: 5px;
+}
+.main-head .sub {
+  font-size: 15px;
+}
+.main-head .title {
+  margin-bottom: 0px;
+}
+.main-sub {
+  margin: 0px;
+  font-size: 14px;
+}
+.footer {
+  margin: 40px 25px 10px 25px;
+}
+.footer .footer-text {
+  margin: 5px 0 25px 0;
+  font-size: 14px;
+}
+
+.footer-btn .btn {
+  transform: 0.4s;
+  border-radius: 10px;
+  background-color: #102770;
+  color: #ffeba7;
+  width: 90%;
+}
+.footer-btn .btn:hover {
+  background-color: #ffeba7;
+  color: #102770;
+  cursor: pointer;
+}
